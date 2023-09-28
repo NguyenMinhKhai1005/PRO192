@@ -1,4 +1,4 @@
-public class Person {
+public class lab3 {
     private String email;
     private String hoTen;
     private int namSinh;
@@ -6,7 +6,7 @@ public class Person {
     private String soDienThoai;
     private String diaChi;
 
-    public Person(String email, String hoTen, int namSinh, String gioiTinh, String soDienThoai, String diaChi) {
+    public lab3(String email, String hoTen, int namSinh, String gioiTinh, String soDienThoai, String diaChi) {
         this.email = email;
         this.hoTen = hoTen;
         this.namSinh = namSinh;
@@ -34,7 +34,7 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person sinhVien = new Person("minhkhain159@gmail.com", "Nguyen Minh Khai", 2004, "Nam", "0399387215", "159/1 Le Loi, Thanh pho Quy Nhon");
+        lab3 sinhVien = new lab3("minhkhain159@gmail.com", "Nguyen Minh Khai", 2004, "Nam", "0399387215", "159/1 Le Loi, Thanh pho Quy Nhon");
 
         sinhVien.hienThiThongTin();
 
