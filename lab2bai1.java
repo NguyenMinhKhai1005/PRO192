@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exchia0 {
+public class lab2bai1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhap vao mot so:");

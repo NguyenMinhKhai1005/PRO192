@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class exnhansokhongnhanchu {
+public class lab2bai2 {
     public static void main(String[] args) {
          Scanner scanner = new Scanner(System.in);
         System.out.println("nhap vao mot so:");
