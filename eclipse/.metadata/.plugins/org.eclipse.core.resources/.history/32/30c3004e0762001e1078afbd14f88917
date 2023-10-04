@@ -1,0 +1,15 @@
+package lab3;
+
+public class GiangVien extends lab3 {
+	private String danhSach;
+	private String hocPhan;
+	public GiangVien(String email, String hoTen, int namSinh, String gioiTinh, String soDienThoai, String diaChi,
+			String danhSach, String hocPhan) {
+		super(email, hoTen, namSinh, gioiTinh, soDienThoai, diaChi);
+		this.danhSach = danhSach;
+		this.hocPhan = hocPhan;
+	}
+	
+	
+	
+}
