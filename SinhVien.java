@@ -1,26 +1,29 @@
-public class SinhVien extends lab3 {
+import java.util.ArrayList;
+import java.util.List;
+
+public class SinhVien extends Person {
 	private String chuyenNganh;
+	private List<String> danhSachMonHocTheoChuyenNganh;
 
 	public SinhVien(String email, String hoTen, int namSinh, String gioiTinh, String soDienThoai, String diaChi,
 			String chuyenNganh) {
 		super(email, hoTen, namSinh, gioiTinh, soDienThoai, diaChi);
 		this.chuyenNganh = chuyenNganh;
+		danhSachMonHocTheoChuyenNganh = new ArrayList<>();
 	}
 
-	public String getChuyenNganh() {
-		return chuyenNganh;
+	public void hienThiChuyenNganh() {
+		System.out.println(chuyenNganh);
+	}	
+
+	public void themMonHoc(String monHocTheoChuyenNganh) {
+		danhSachMonHocTheoChuyenNganh.add(monHocTheoChuyenNganh);
 	}
 
-	public void setChuyenNganh(String chuyenNganh) {
-		this.chuyenNganh = chuyenNganh;
-	}
-	
-	
-	public void hienThiMonHocChuyenNganh() {
-		System.out.println("MAD101");
-		System.out.println("PRO192");
-		System.out.println("OSG202");
-		System.out.println("SSG104");
-		System.out.println("NWC203c");
+	public void hienThiMonHocTheoChuyenNganh(){
+		System.out.println("Cac mon hoc theo chuyen nganh: ");
+		for (String monHocTheoChuyenNganh : danhSachMonHocTheoChuyenNganh) {
+			System.out.println(monHocTheoChuyenNganh);
+		}
 	}
 }
