@@ -1,7 +1,0 @@
-package lab3;
-
-public class test {
-	public static void main(String[] args) {
-		PerSon  ps = new PerSon ("");
-	}
-}

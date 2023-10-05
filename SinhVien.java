@@ -1,6 +1,4 @@
-package lab3;
-
-public class SinhVien extends PerSon {
+public class SinhVien extends lab3 {
 	private String chuyenNganh;
 
 	public SinhVien(String email, String hoTen, int namSinh, String gioiTinh, String soDienThoai, String diaChi,
